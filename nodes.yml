@@ -1,0 +1,39 @@
+---
+
+Nodes:
+  
+  Firewalls:
+
+  - node_label: firewall-01
+    foreign_id: firewall-01
+    building: main office
+    snmp_primary: N
+    ip_addr: 10.0.0.1
+    description: palo alto firewall
+    service_name: SNMP
+
+  - node_label: firewall-02
+    foreign_id: firewall-02
+    building: main office
+    snmp_primary: N
+    ip_addr: 10.0.0.2
+    description: palo alto firewall
+    service_name: SNMP
+
+  Switches:
+
+  - node_label: switch-01
+    foreign_id: switch-01
+    building: main office
+    snmp_primary: N
+    ip_addr: 10.0.0.3
+    description: cisco switch
+    service_name: SNMP
+
+  - node_label: switch-02
+    foreign_id: switch-02
+    building: main office
+    snmp_primary: N
+    ip_addr: 10.0.0.4
+    description: cisco switch
+    service_name: SNMP
